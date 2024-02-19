@@ -40,11 +40,9 @@ def convert_fractions(amount_string):
   if "/" in amount_string:
     numerator, denominator = amount_string.split("/")
     try:
-      response = float(numerator) / float(denominator)
+      amount_string = float(numerator) / float(denominator)
     except:
       return None
-  
-    return response
   
   return amount_string
 

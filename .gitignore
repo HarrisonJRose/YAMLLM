@@ -4,6 +4,7 @@
 # But not these files
 !yamllm.py
 !example.py
+!readme.md
 
 # Additionally, you might want to exclude gitignore itself
 !.gitignore
