@@ -1,9 +1,0 @@
-# Ignore everything
-*
-
-# But not these files
-!yamllm.py
-!example.py
-
-# Additionally, you might want to exclude gitignore itself
-!.gitignore
