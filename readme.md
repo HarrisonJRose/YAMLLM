@@ -1,4 +1,4 @@
-# YAML Like Models
+# YAML-Like-Models
 YAMLLM is a library for communicating structured data with LLMs. YAMLLM handles the workflow of:
 
 - Requesting a response in a given structure
@@ -6,13 +6,15 @@ YAMLLM is a library for communicating structured data with LLMs. YAMLLM handles 
 - Validating the result matches the given structure
 
 **YAMLLM improves the workflow by:**
-- Ultra-concise syntax
+- Concise syntax
 - Automatically skipping any preface or comments
-- More robus
+- More robust
 - Same schema can be used for prompting and validation
 - Build validations and corrections directly into the schema
 - 10x faster than PyYAML for parsing simple YAML
 - Fewer tokens than JSON
+
+YAMLLM is licensed under the MIT license.
 
 ## Example Usage
 ### Schemas
